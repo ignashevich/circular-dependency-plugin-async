@@ -1,7 +1,7 @@
 {
   "name": "circular-dependency-plugin-async",
   "version": "1.0.1",
-  "description": "Detect modules with circular dependencies asynchronysly when bundling with webpack.",
+  "description": "Detect modules with circular dependencies asynchronously when bundling with webpack.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
