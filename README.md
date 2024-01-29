@@ -11,9 +11,8 @@ Detect modules with circular dependencies asynchronously when bundling with webp
 const CircularDependencyPluginAsync = require("circular-dependency-plugin-async");
 
 module.exports = {
-  entry: "./src/index",
   plugins: [
-    new CircularDependencyPlugin({\
+    new CircularDependencyPlugin({
       // Path to the index file of your application
       indexFilePath: "./src/index.tsx",
       // Sync/async mode flag
