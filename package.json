@@ -1,0 +1,26 @@
+{
+  "name": "circular-dependency-plugin-async",
+  "version": "1.0.0",
+  "description": "Detect modules with circular dependencies asynchronysly when bundling with webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "findCircularDependencies.js",
+    "worker.js"
+  ],
+  "author": "https://github.com/ignashevich",
+  "license": "MIT",
+  "dependencies": {
+    "madge": "^6.1.0",
+    "path": "^0.12.7",
+    "pluralize": "^8.0.0",
+    "worker-farm": "^1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ignashevich/circular-dependency-plugin-async"
+  }
+}
