@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/circular-dependency-plugin-async.svg)](https://badge.fury.io/js/circular-dependency-plugin-async)
+
 ## Circular Dependency Plugin Async
 
 Detect modules with circular dependencies asynchronously when bundling with webpack.
