@@ -6,8 +6,8 @@ Detect modules with circular dependencies asynchronously when bundling with webp
 
 ### Basic Usage
 
-[!IMPORTANT]  
-Async mode doesn't fail the webpack build so if you want your build fail during production build set `isAsync: false`
+> [!IMPORTANT]  
+> Async mode doesn't fail the webpack build so if you want your build fail during production build set `isAsync: false`
 
 
 ```js
