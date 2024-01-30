@@ -6,6 +6,10 @@ Detect modules with circular dependencies asynchronously when bundling with webp
 
 ### Basic Usage
 
+[!TIP]
+Async mode doesn't fail the webpack build so if you want your build fail during production build set `isAsync: false`
+
+
 ```js
 // webpack.config.js
 const CircularDependencyPluginAsync = require("circular-dependency-plugin-async");

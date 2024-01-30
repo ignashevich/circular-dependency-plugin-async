@@ -1,6 +1,6 @@
 {
   "name": "circular-dependency-plugin-async",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Detect modules with circular dependencies asynchronously when bundling with webpack.",
   "main": "index.js",
   "scripts": {
